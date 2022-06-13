@@ -1,0 +1,1 @@
+Dependencies are Lame and neccesary sound card drivers or any for that matter code just need editing, also lame is neccesary for this to work the commadline version
