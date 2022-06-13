@@ -327,7 +327,7 @@ class recording(extract):
         if s_or_f == 'success':
             raw_pcm = b''.join(frames)
             l = subprocess.Popen(
-                f'"C:\\Users\\merri\\PycharmProjects\\radio_downloader_test\\lame3.100.1-x64\\lame.exe" - -r -m m {FILE_NAME}',
+                f'"{os.getcwd()}\\lame3.100.1-x64\\lame.exe" - -r -m m {FILE_NAME}',
                 stdin=subprocess.PIPE)
             l.communicate(input=raw_pcm)
 
